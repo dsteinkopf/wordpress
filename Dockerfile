@@ -8,7 +8,6 @@ RUN apt-get update && \
 
 # needed by some plugins
 RUN docker-php-ext-install \
-    mbstring \
     zip \
     exif
 
